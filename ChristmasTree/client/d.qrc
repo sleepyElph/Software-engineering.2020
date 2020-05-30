@@ -1,9 +1,0 @@
-<RCC>
-    <qresource prefix="/new/icons">
-        <file>back.svg</file>
-        <file>exit.svg</file>
-    </qresource>
-    <qresource prefix="/json">
-        <file>decorations.json</file>
-    </qresource>
-</RCC>
