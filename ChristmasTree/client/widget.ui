@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>998</width>
+    <height>612</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>998</width>
+    <height>612</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>998</width>
+    <height>612</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Widget</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: white;
+</string>
+  </property>
+  <widget class="QLabel" name="title">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1001</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #408da9;
+vertical-align: middle;
+qproperty-alignment: 'AlignVCenter | AlignCenter';
+color: white; 
+font: 22pt &quot;Ocean Sans Std Bold SemiExt&quot;;
+padding: 10px;</string>
+   </property>
+   <property name="text">
+    <string>ChristmasTree</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="continue_2">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>550</y>
+     <width>1001</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton { 
+color:white; 
+background-color:#9bcfe4;  
+border: none; 
+font: 20pt &quot;Ocean Sans Std Bold SemiExt&quot;;
+} 
+QPushButton:checked { 
+background-color:#408da9;
+border: none; 
+}
+QPushButton:hover{ 
+background-color: #408da9; 
+border-style: 
+outset; 
+}
+QPushButton:disabled{ 
+background: gray; 
+}</string>
+   </property>
+   <property name="text">
+    <string>CONTINUE</string>
+   </property>
+  </widget>
+  <widget class="QTableView" name="buy">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>90</y>
+     <width>731</width>
+     <height>451</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QHeaderView::section:horizontal {
+color: white; 
+border: none; 
+font: 12pt;
+background-color: #9bcfe4;
+
+}
+QTableView::item:selected:active {
+background: #9bcfe4;
+border: 1px solid transparent;
+color: white;
+}
+
+QTableView {
+background-color: white;
+font: 12pt &quot;DejaVu Serif&quot;;
+color: #408da9;
+ }</string>
+   </property>
+   <property name="autoScroll">
+    <bool>true</bool>
+   </property>
+   <property name="editTriggers">
+    <set>QAbstractItemView::NoEditTriggers</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="exit">
+   <property name="geometry">
+    <rect>
+     <x>980</x>
+     <y>0</y>
+     <width>21</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #434f42; 
+background: transparent;
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="resources/resources.qrc">
+     <normaloff>:/icons/icons/exit.svg</normaloff>:/icons/icons/exit.svg</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>26</width>
+     <height>26</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="toys">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>90</y>
+     <width>251</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton { 
+color:white; 
+background-color:#9bcfe4;  
+border: none; 
+font: 12pt &quot;Ocean Sans Std Bold SemiExt&quot;;
+} 
+QPushButton:checked { 
+background-color:#408da9;
+border: none; 
+}
+QPushButton:hover{ 
+background-color: #408da9; 
+border-style: 
+outset; 
+}</string>
+   </property>
+   <property name="text">
+    <string>Toys</string>
+   </property>
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="garlands">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>140</y>
+     <width>251</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton { 
+color:white; 
+background-color:#9bcfe4;  
+border: none; 
+font: 12pt &quot;Ocean Sans Std Bold SemiExt&quot;;
+} 
+QPushButton:checked { 
+background-color:#408da9;
+border: none; 
+}
+QPushButton:hover{ 
+background-color: #408da9; 
+border-style: 
+outset; 
+}</string>
+   </property>
+   <property name="text">
+    <string>Garlands</string>
+   </property>
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <property name="checked">
+    <bool>false</bool>
+   </property>
+   <property name="autoRepeat">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="remove">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>280</y>
+     <width>251</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton { 
+color:white; 
+background-color:#9bcfe4;  
+border: none; 
+font: 12pt &quot;Ocean Sans Std Bold SemiExt&quot;;
+} 
+QPushButton:checked { 
+background-color:#408da9;
+border: none; 
+}
+QPushButton:hover{ 
+background-color: #408da9; 
+border-style: 
+outset; 
+}</string>
+   </property>
+   <property name="text">
+    <string>Remove</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="add">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>230</y>
+     <width>251</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton { 
+color:white; 
+background-color:#9bcfe4;  
+border: none; 
+font: 12pt &quot;Ocean Sans Std Bold SemiExt&quot;;
+} 
+QPushButton:checked { 
+background-color:#408da9;
+border: none; 
+}
+QPushButton:hover{ 
+background-color: #408da9; 
+border-style: 
+outset; 
+}</string>
+   </property>
+   <property name="text">
+    <string>Add</string>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="resources/resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>

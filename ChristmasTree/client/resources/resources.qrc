@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/json">
+        <file>json/decorations.json</file>
+    </qresource>
+    <qresource prefix="/icons">
+        <file>icons/back.svg</file>
+        <file>icons/exit.svg</file>
+    </qresource>
+</RCC>
