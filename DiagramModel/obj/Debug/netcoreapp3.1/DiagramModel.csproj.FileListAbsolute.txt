@@ -1,0 +1,8 @@
+C:\Users\Тыща\Desktop\ПРИНЖ_КР\ExpenceManager-master\DiagramModel\bin\Debug\netcoreapp3.1\DiagramModel.deps.json
+C:\Users\Тыща\Desktop\ПРИНЖ_КР\ExpenceManager-master\DiagramModel\bin\Debug\netcoreapp3.1\DiagramModel.dll
+C:\Users\Тыща\Desktop\ПРИНЖ_КР\ExpenceManager-master\DiagramModel\bin\Debug\netcoreapp3.1\DiagramModel.pdb
+C:\Users\Тыща\Desktop\ПРИНЖ_КР\ExpenceManager-master\DiagramModel\obj\Debug\netcoreapp3.1\DiagramModel.csprojAssemblyReference.cache
+C:\Users\Тыща\Desktop\ПРИНЖ_КР\ExpenceManager-master\DiagramModel\obj\Debug\netcoreapp3.1\DiagramModel.AssemblyInfoInputs.cache
+C:\Users\Тыща\Desktop\ПРИНЖ_КР\ExpenceManager-master\DiagramModel\obj\Debug\netcoreapp3.1\DiagramModel.AssemblyInfo.cs
+C:\Users\Тыща\Desktop\ПРИНЖ_КР\ExpenceManager-master\DiagramModel\obj\Debug\netcoreapp3.1\DiagramModel.dll
+C:\Users\Тыща\Desktop\ПРИНЖ_КР\ExpenceManager-master\DiagramModel\obj\Debug\netcoreapp3.1\DiagramModel.pdb
