@@ -32,7 +32,7 @@ private slots:
 private:
     Ui::Widget      *ui;
     QGraphicsScene  *scene;     // Объявляем графическую сцену
-    earth       *earth;       // и треугольник
+    earth       *earth;       // и объекты
     Rocket *rocket;
     QTimer *timer;
     Moon  *moon;

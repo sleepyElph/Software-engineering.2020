@@ -20,7 +20,7 @@
 
          void slotMoove();
 
-     //   void slotMove();
+
     public:
         double getMas();
         explicit Rocket(QObject *parent = 0);
@@ -30,7 +30,7 @@
 
         void delta (double deltaspeed,double deltaax,double deltaay);
 
-       // earth();
+
         ~Rocket();
 
     protected:

@@ -82,17 +82,15 @@ Rocket::~Rocket()
 
 QRectF Rocket::boundingRect() const
 {
-    return QRectF(-20,-20,40,40);   // Ограничиваем область, в которой лежит треугольник
+    return QRectF(-20,-20,40,40);   // Ограничиваем область, в которой лежит объект
 }
 
 void Rocket::paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget)
 {
-        QPolygon polygon;   // Используем класс полигона, чтобы отрисовать треугольник
-        // Помещаем координаты точек в полигональную модель
-       // polygon << QPoint(0,-40) << QPoint(25,40) << QPoint(-25,40);
+        QPolygon polygon;
         painter->setBrush(Qt::black);     // Устанавливаем кисть, которой будем отрисовывать объект
-        // painter->drawPolygon(polygon);
-        painter->drawEllipse(-10,-10,20,20);// Рисуем треугольник по полигональной модели
+
+        painter->drawEllipse(-10,-10,20,20);// Рисуем
         Q_UNUSED(option);
         Q_UNUSED(widget);
 

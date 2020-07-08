@@ -75,7 +75,7 @@ void Widget::on_pushButton_clicked()
     scene->addItem(moon);     // Добавляем на сцену
     earth->setPos(0,0);
     moon->setPos(1700,0);
-    scene->addLine(-250,0,250,0,QPen(Qt::black));   // Добавляем горизонтальную линию через центр
+    scene->addLine(-250,0,250,0,QPen(Qt::black));   // Добавляем горизоянтальную линию через центр
     scene->addLine(0,-250,0,250,QPen(Qt::black));
     rocket = new Rocket(ui->lineAngle->text().toDouble(),ui->lineEdit->text().toDouble());
     timer = new QTimer();

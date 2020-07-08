@@ -26,9 +26,9 @@ public:
 
 protected:
     QRectF boundingRect() const;    /* Определяем виртуальный метод,
-                                     * который возвращает область, в которой                                     * находится треугольник
+                                     * который возвращает область, в которой находится объект
                                      * */
-    /* Определяем метод для отрисовки треугольника
+    /* Определяем метод для отрисовки
      * */
     void paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget);
 

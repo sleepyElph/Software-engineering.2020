@@ -23,7 +23,7 @@ earth::~earth()
 
 QRectF earth::boundingRect() const
 {
-    return QRectF(-150,-150,300,300);   // Ограничиваем область, в которой лежит треугольник
+    return QRectF(-150,-150,300,300);   // Ограничиваем область, в которой лежит объект
 }
 
 void earth::paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget)
@@ -32,7 +32,7 @@ void earth::paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWi
 
 
         painter->setBrush(Qt::red);     // Устанавливаем кисть, которой будем отрисовывать объект
-        // painter->drawPolygon(polygon);
+
         painter->drawEllipse(-diametr/2,-diametr/2,diametr,diametr);
         Q_UNUSED(option);
         Q_UNUSED(widget);

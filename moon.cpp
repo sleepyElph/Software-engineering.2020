@@ -39,19 +39,17 @@ Moon::~Moon()
 
 QRectF Moon::boundingRect() const
 {
-    return QRectF(-25,-40,50,80);   // Ограничиваем область, в которой лежит треугольник
+    return QRectF(-25,-40,50,80);   // Ограничиваем область, в которой лежит объект
 }
 
 void Moon::paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget)
 {
 
 
-       // QPolygon polygon;   // Используем класс полигона, чтобы отрисовать треугольник
-       // Помещаем координаты точек в полигональную модель
-       // polygon << QPoint(0,-40) << QPoint(25,40) << QPoint(-25,40);
+
         painter->setBrush(Qt::red);     // Устанавливаем кисть, которой будем отрисовывать объект
-       // painter->drawPolygon(polygon);
-        painter->drawEllipse(-diametr/2,-diametr/2,diametr,diametr);// Рисуем треугольник по полигональной модели
+
+        painter->drawEllipse(-diametr/2,-diametr/2,diametr,diametr);// Рисуем
         Q_UNUSED(option);
         Q_UNUSED(widget);
 }
