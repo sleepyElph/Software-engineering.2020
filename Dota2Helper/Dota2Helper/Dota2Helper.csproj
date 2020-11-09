@@ -1,0 +1,114 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="SourseImage\AbilityImage\Aether Remnant.png" />
+    <None Remove="SourseImage\AbilityImage\Astral Step.png" />
+    <None Remove="SourseImage\AbilityImage\Battle Hunger.png" />
+    <None Remove="SourseImage\AbilityImage\Berserker Blood.png" />
+    <None Remove="SourseImage\AbilityImage\Berserker Call.png" />
+    <None Remove="SourseImage\AbilityImage\Blink.png" />
+    <None Remove="SourseImage\AbilityImage\Burning Spear.png" />
+    <None Remove="SourseImage\AbilityImage\Counter Helix.png" />
+    <None Remove="SourseImage\AbilityImage\Counterspell.png" />
+    <None Remove="SourseImage\AbilityImage\Culling Blade.png" />
+    <None Remove="SourseImage\AbilityImage\Dismember.png" />
+    <None Remove="SourseImage\AbilityImage\Dissimilate.png" />
+    <None Remove="SourseImage\AbilityImage\Dragon Slave.png" />
+    <None Remove="SourseImage\AbilityImage\Eclipse.png" />
+    <None Remove="SourseImage\AbilityImage\Fiery Soul.png" />
+    <None Remove="SourseImage\AbilityImage\Flesh Heap.png" />
+    <None Remove="SourseImage\AbilityImage\Frost Arrows.png" />
+    <None Remove="SourseImage\AbilityImage\Gust.png" />
+    <None Remove="SourseImage\AbilityImage\Inner Fire.png" />
+    <None Remove="SourseImage\AbilityImage\Laguna Blade.png" />
+    <None Remove="SourseImage\AbilityImage\Life Break.png" />
+    <None Remove="SourseImage\AbilityImage\Light Strike Array.png" />
+    <None Remove="SourseImage\AbilityImage\Lucent Beam.png" />
+    <None Remove="SourseImage\AbilityImage\Lunar Blessing.png" />
+    <None Remove="SourseImage\AbilityImage\Mana Break.png" />
+    <None Remove="SourseImage\AbilityImage\Mana Void.png" />
+    <None Remove="SourseImage\AbilityImage\Marksmanship.png" />
+    <None Remove="SourseImage\AbilityImage\Meat Hook.png" />
+    <None Remove="SourseImage\AbilityImage\Moon Glaives.png" />
+    <None Remove="SourseImage\AbilityImage\Multishot.png" />
+    <None Remove="SourseImage\AbilityImage\Resonant Pulse.png" />
+    <None Remove="SourseImage\AbilityImage\Rot.png" />
+    <None Remove="SourseImage\AgilityIcon.png" />
+    <None Remove="SourseImage\AttackSpeed.png" />
+    <None Remove="SourseImage\HeroImage\Anti-Mage.png" />
+    <None Remove="SourseImage\HeroImage\Axe.png" />
+    <None Remove="SourseImage\HeroImage\Drow Ranger.png" />
+    <None Remove="SourseImage\HeroImage\Huskar.png" />
+    <None Remove="SourseImage\HeroImage\Lina.png" />
+    <None Remove="SourseImage\HeroImage\Luna.png" />
+    <None Remove="SourseImage\HeroImage\Pudge.png" />
+    <None Remove="SourseImage\HeroImage\Pudge2.png" />
+    <None Remove="SourseImage\HeroImage\Void Spirit.png" />
+    <None Remove="SourseImage\IntelligenceIcon.png" />
+    <None Remove="SourseImage\StrengthIcon.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer.Design" Version="1.1.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.5">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="SourseImage\AbilityImage\Aether Remnant.png" />
+    <Resource Include="SourseImage\AbilityImage\Astral Step.png" />
+    <Resource Include="SourseImage\AbilityImage\Battle Hunger.png" />
+    <Resource Include="SourseImage\AbilityImage\Berserker Blood.png" />
+    <Resource Include="SourseImage\AbilityImage\Berserker Call.png" />
+    <Resource Include="SourseImage\AbilityImage\Blink.png" />
+    <Resource Include="SourseImage\AbilityImage\Burning Spear.png" />
+    <Resource Include="SourseImage\AbilityImage\Counter Helix.png" />
+    <Resource Include="SourseImage\AbilityImage\Counterspell.png" />
+    <Resource Include="SourseImage\AbilityImage\Culling Blade.png" />
+    <Resource Include="SourseImage\AbilityImage\Dismember.png" />
+    <Resource Include="SourseImage\AbilityImage\Dissimilate.png" />
+    <Resource Include="SourseImage\AbilityImage\Dragon Slave.png" />
+    <Resource Include="SourseImage\AbilityImage\Eclipse.png" />
+    <Resource Include="SourseImage\AbilityImage\Fiery Soul.png" />
+    <Resource Include="SourseImage\AbilityImage\Flesh Heap.png" />
+    <Resource Include="SourseImage\AbilityImage\Frost Arrows.png" />
+    <Resource Include="SourseImage\AbilityImage\Gust.png" />
+    <Resource Include="SourseImage\AbilityImage\Inner Fire.png" />
+    <Resource Include="SourseImage\AbilityImage\Laguna Blade.png" />
+    <Resource Include="SourseImage\AbilityImage\Life Break.png" />
+    <Resource Include="SourseImage\AbilityImage\Light Strike Array.png" />
+    <Resource Include="SourseImage\AbilityImage\Lucent Beam.png" />
+    <Resource Include="SourseImage\AbilityImage\Lunar Blessing.png" />
+    <Resource Include="SourseImage\AbilityImage\Mana Break.png" />
+    <Resource Include="SourseImage\AbilityImage\Mana Void.png" />
+    <Resource Include="SourseImage\AbilityImage\Marksmanship.png" />
+    <Resource Include="SourseImage\AbilityImage\Meat Hook.png" />
+    <Resource Include="SourseImage\AbilityImage\Moon Glaives.png" />
+    <Resource Include="SourseImage\AbilityImage\Multishot.png" />
+    <Resource Include="SourseImage\AbilityImage\Resonant Pulse.png" />
+    <Resource Include="SourseImage\AbilityImage\Rot.png" />
+    <Resource Include="SourseImage\AgilityIcon.png" />
+    <Resource Include="SourseImage\AttackSpeed.png" />
+    <Resource Include="SourseImage\HeroImage\Anti-Mage.png" />
+    <Resource Include="SourseImage\HeroImage\Axe.png" />
+    <Resource Include="SourseImage\HeroImage\Drow Ranger.png" />
+    <Resource Include="SourseImage\HeroImage\Huskar.png" />
+    <Resource Include="SourseImage\HeroImage\Lina.png" />
+    <Resource Include="SourseImage\HeroImage\Luna.png" />
+    <Resource Include="SourseImage\HeroImage\Pudge2.png" />
+    <Resource Include="SourseImage\HeroImage\Pudge.png" />
+    <Resource Include="SourseImage\HeroImage\Void Spirit.png" />
+    <Resource Include="SourseImage\IntelligenceIcon.png" />
+    <Resource Include="SourseImage\StrengthIcon.png" />
+  </ItemGroup>
+
+</Project>
