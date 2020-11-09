@@ -1,0 +1,107 @@
+﻿<Window x:Class="ExpenceManager.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ExpenceManager"
+        mc:Ignorable="d"
+        Icon="C:\Users\Тыща\Desktop\ПРИНЖ_КР\ExpenceManager-master\ExpenceManager\Resources\PieDiagramIcon.png"
+        Title="Expence manager"
+        MinHeight="600"
+        MinWidth="1300">
+    <Grid x:Name="MainGrid"
+          Focusable="True"
+          Background="#6C2680"
+          MouseDown="MainGrid_MouseDown">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="0.25*"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Grid Grid.Column="0" Panel.ZIndex="10">
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <Button x:Name="AddButton"
+                    Grid.Row="0"
+                    HorizontalAlignment="Left"
+                    Style="{StaticResource ImageSquareButton}"
+                    Click="AddButton_Click">
+                <Image Source="C:\Users\Тыща\Desktop\ПРИНЖ_КР\ExpenceManager-master\ExpenceManager\Resources\AddExpenceIcon.png"/>
+            </Button>
+
+            <StackPanel Grid.Row="1"
+                        VerticalAlignment="Top"
+                        Margin="6,20,6,4"
+                        Orientation="Horizontal">
+
+                <Image x:Name="UploadIcon"
+                       Source="C:\Users\Тыща\Desktop\ПРИНЖ_КР\ExpenceManager-master\ExpenceManager\Resources\UploadIcon.png" 
+                       ToolTip="Load from" 
+                       MaxHeight="30" MaxWidth="30"/>
+
+                <ComboBox x:Name="LoadFromComboBox"
+                          Style="{StaticResource ComboBox}"
+                          SelectionChanged="LoadFromComboBox_SelectionChanged">
+                    <ComboBoxItem Tag="TXT">
+                        <ComboBoxItem.Content>
+                            From txt
+                        </ComboBoxItem.Content>
+                        <ComboBoxItem.ToolTip>
+                            <StackPanel>
+                                <TextBlock>Watch sample!</TextBlock>
+                                <Image Source="C:\Users\Тыща\Desktop\ПРИНЖ_КР\ExpenceManager-master\ExpenceManager\Resources\ExportIcon.png"/>
+                            </StackPanel>
+                        </ComboBoxItem.ToolTip>
+                        </ComboBoxItem>
+                    <ComboBoxItem Tag="EXCEL">From excel</ComboBoxItem>
+                </ComboBox>
+
+            </StackPanel>
+
+            <StackPanel Grid.Row="1"
+                        VerticalAlignment="Center"
+                        Orientation="Horizontal"
+                        Margin="6,10,6,4">
+
+                <Image Source="C:\Users\Тыща\Desktop\ПРИНЖ_КР\ExpenceManager-master\ExpenceManager\Resources\ExportIcon.png" 
+                       ToolTip="Export to"
+                       MaxHeight="{Binding ElementName=UploadIcon,Path=MaxHeight}"
+                       MaxWidth="{Binding ElementName=UploadIcon, Path=MaxWidth}"/>
+
+                <ComboBox Name="ExportComboBox"
+                          Style="{StaticResource ComboBox}"
+                          SelectionChanged="ExportComboBox_SelectionChanged">
+                    <ComboBoxItem Tag="EXCEL">To excel</ComboBoxItem>
+                </ComboBox>
+
+            </StackPanel>
+
+        </Grid>
+
+        <Calendar x:Name="ManagerCalendar"
+                  Grid.Column="1"
+                  Margin="20,20,0,0"
+                  Background="#E999FF"
+                  SelectionMode="MultipleRange"
+                  IsTodayHighlighted="False"
+                  SelectedDatesChanged="ManagerCalendar_SelectedDatesChanged"
+                  Panel.ZIndex="10"/>
+
+        <Border Background="#D84DFF" Grid.Column="0" Grid.ColumnSpan="2" Margin="1,2,3,2"/>
+
+
+        <TextBlock x:Name="LoadingTextBlockAnimation"
+                   VerticalAlignment="Center"
+                   HorizontalAlignment="Center"
+                   Visibility="Collapsed"
+                   FontSize="25"
+                   Grid.Column="0"
+                   Text="Jopa"
+                   Grid.ColumnSpan="3"/>
+    </Grid>
+</Window>

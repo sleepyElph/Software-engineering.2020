@@ -1,0 +1,13 @@
+C:\Users\Тыща\Desktop\ПРИНЖ_КР\ExpenceManager-master\Model\bin\Debug\netcoreapp3.1\Model.deps.json
+C:\Users\Тыща\Desktop\ПРИНЖ_КР\ExpenceManager-master\Model\bin\Debug\netcoreapp3.1\Model.runtimeconfig.json
+C:\Users\Тыща\Desktop\ПРИНЖ_КР\ExpenceManager-master\Model\bin\Debug\netcoreapp3.1\Model.runtimeconfig.dev.json
+C:\Users\Тыща\Desktop\ПРИНЖ_КР\ExpenceManager-master\Model\bin\Debug\netcoreapp3.1\Model.dll
+C:\Users\Тыща\Desktop\ПРИНЖ_КР\ExpenceManager-master\Model\bin\Debug\netcoreapp3.1\Model.pdb
+C:\Users\Тыща\Desktop\ПРИНЖ_КР\ExpenceManager-master\Model\bin\Debug\netcoreapp3.1\DiagramModel.dll
+C:\Users\Тыща\Desktop\ПРИНЖ_КР\ExpenceManager-master\Model\bin\Debug\netcoreapp3.1\DiagramModel.pdb
+C:\Users\Тыща\Desktop\ПРИНЖ_КР\ExpenceManager-master\Model\obj\Debug\netcoreapp3.1\Model.csprojAssemblyReference.cache
+C:\Users\Тыща\Desktop\ПРИНЖ_КР\ExpenceManager-master\Model\obj\Debug\netcoreapp3.1\Model.AssemblyInfoInputs.cache
+C:\Users\Тыща\Desktop\ПРИНЖ_КР\ExpenceManager-master\Model\obj\Debug\netcoreapp3.1\Model.AssemblyInfo.cs
+C:\Users\Тыща\Desktop\ПРИНЖ_КР\ExpenceManager-master\Model\obj\Debug\netcoreapp3.1\Model.csproj.CopyComplete
+C:\Users\Тыща\Desktop\ПРИНЖ_КР\ExpenceManager-master\Model\obj\Debug\netcoreapp3.1\Model.dll
+C:\Users\Тыща\Desktop\ПРИНЖ_КР\ExpenceManager-master\Model\obj\Debug\netcoreapp3.1\Model.pdb

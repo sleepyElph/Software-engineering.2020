@@ -1,0 +1,16 @@
+C:\Users\Тыща\Desktop\ПРИНЖ_КР\ExpenceManager-master\Utils\bin\Debug\netcoreapp3.1\Utils.deps.json
+C:\Users\Тыща\Desktop\ПРИНЖ_КР\ExpenceManager-master\Utils\bin\Debug\netcoreapp3.1\Utils.dll
+C:\Users\Тыща\Desktop\ПРИНЖ_КР\ExpenceManager-master\Utils\bin\Debug\netcoreapp3.1\Utils.pdb
+C:\Users\Тыща\Desktop\ПРИНЖ_КР\ExpenceManager-master\Utils\bin\Debug\netcoreapp3.1\DiagramModel.dll
+C:\Users\Тыща\Desktop\ПРИНЖ_КР\ExpenceManager-master\Utils\bin\Debug\netcoreapp3.1\Model.dll
+C:\Users\Тыща\Desktop\ПРИНЖ_КР\ExpenceManager-master\Utils\bin\Debug\netcoreapp3.1\Model.pdb
+C:\Users\Тыща\Desktop\ПРИНЖ_КР\ExpenceManager-master\Utils\bin\Debug\netcoreapp3.1\DiagramModel.pdb
+C:\Users\Тыща\Desktop\ПРИНЖ_КР\ExpenceManager-master\Utils\bin\Debug\netcoreapp3.1\Interop.Microsoft.Office.Core.dll
+C:\Users\Тыща\Desktop\ПРИНЖ_КР\ExpenceManager-master\Utils\obj\Debug\netcoreapp3.1\Utils.csprojAssemblyReference.cache
+C:\Users\Тыща\Desktop\ПРИНЖ_КР\ExpenceManager-master\Utils\obj\Debug\netcoreapp3.1\Interop.Microsoft.Office.Core.dll
+C:\Users\Тыща\Desktop\ПРИНЖ_КР\ExpenceManager-master\Utils\obj\Debug\netcoreapp3.1\Utils.csproj.ResolveComReference.cache
+C:\Users\Тыща\Desktop\ПРИНЖ_КР\ExpenceManager-master\Utils\obj\Debug\netcoreapp3.1\Utils.AssemblyInfoInputs.cache
+C:\Users\Тыща\Desktop\ПРИНЖ_КР\ExpenceManager-master\Utils\obj\Debug\netcoreapp3.1\Utils.AssemblyInfo.cs
+C:\Users\Тыща\Desktop\ПРИНЖ_КР\ExpenceManager-master\Utils\obj\Debug\netcoreapp3.1\Utils.csproj.CopyComplete
+C:\Users\Тыща\Desktop\ПРИНЖ_КР\ExpenceManager-master\Utils\obj\Debug\netcoreapp3.1\Utils.dll
+C:\Users\Тыща\Desktop\ПРИНЖ_КР\ExpenceManager-master\Utils\obj\Debug\netcoreapp3.1\Utils.pdb
